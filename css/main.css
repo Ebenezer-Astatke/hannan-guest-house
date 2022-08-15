@@ -1,16 +1,16 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
    
 }
 header {
     display: flex;
     justify-content: space-between;
-   
-    height: 16px;
+    /* height: 16px; */
     background-color: azure;
     align-items: center;
-    padding: 20px 10%;
+    /* padding: 20px 10%; */
+    padding: 0 10%;
 }
 .navbar{
     display: flex;
@@ -20,17 +20,20 @@ header {
 }
 .navbar a {
     margin-left: 20px;
-    color:rgb(35, 29, 87);
+    color:
+    rgb(35, 29, 87);
     text-decoration: none; /* Haalt standaard lijntje onder link weg */
     font-size: 22px;
+    font-weight: 500;
 }
 #logo{
 
     width:19%;
 }
 .banner {
-    height: 400px;
-    background-image: url("../img/cover.jpg");
+    height: 50vh;
+    position: relative;
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -49,12 +52,11 @@ header {
 
 
 .spotlight-element {
-    background-color: #61C78C;
-    border-radius: 25px;
+    /* background-color: #61C78C; */
+    /* border-radius: 25px; */
+    position: relative;
     color: white;
-    font-size: 20px;
-    width: 450;
-    padding: 20px;
+    text-shadow: 1px 1px 1px #000;
 }
 .spotlight-element span{
     font-size: 32px;
@@ -63,8 +65,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-   
-
+    padding: 0 10%;
 }
 
 .input_container{
@@ -73,9 +74,9 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
-    padding: 20px 10%;
+    padding: 20px 10px;
     height: 50px;
-    width: 60%;
+    /* width: 60%; */
     background-color:#61C78C;
 }
 #max_per{
